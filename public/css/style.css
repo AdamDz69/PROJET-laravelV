@@ -1,0 +1,38 @@
+/* Style de base pour le tableau */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style pour l'en-tête du tableau */
+  th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style pour les cellules du tableau */
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  /* Style pour les lignes impaires du tableau (facultatif) */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style pour les liens dans le tableau */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
